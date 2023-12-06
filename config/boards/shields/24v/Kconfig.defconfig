@@ -1,9 +1,9 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_VI
+if SHIELD_24v
 
 config ZMK_KEYBOARD_NAME
-    default "VI Keyboard"
+    default "24v Keyboard"
 
 endif

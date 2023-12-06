@@ -16,19 +16,19 @@
 
         default_layer {
             // --------------------------------------------------------------------------------------------------
-            // |  ESC  |  1   |  2   |  3   |  4   |  5   |   6   |  7    |  8   |  9   |   0   |  -    |  =    |
-            // |  TAB  |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   |  [    |  ]    |
-            // |       |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |   ;   |  '    | ENTER |
-            // | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   | UARW  | LOWR  |
-            // | LCTL  | LALT | LOWR |      |      | SPACE|       |  DEL  | BSPC | SHIFT| LARW  | DARW  | RARW  |
+            // |       |  1   |  2   |  3   |  4   |  5   |   6   |  7    |  8   |  9   |   0   |  -    |  =    |
+            // |       |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   |  [    |  ]    |
+            // |       |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |   ;   |  '    |  ESC  |
+            // | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   | UARW  |  DEL  |
+            // | LCTL  |      | LALT |LOWR  |      |SPACE |SPACE  |       | SHIFT| LOWR | LARW  | DARW  |  RARW |
 
 
             bindings = <
-                &kp ESC    &kp N1       &kp N2      &kp N3   &kp N4     &kp N5      &kp N6      &kp N7   &kp N8      &kp N9      &kp N0      &kp MINUS   &kp EQUAL
-                &kp TAB    &kp Q        &kp W       &kp E    &kp R      &kp T       &kp Y       &kp U    &kp I       &kp O       &kp P       &kp LBKT    &kp RBKT
-                &none      &kp A        &kp S       &kp D    &kp F      &kp G       &kp H       &kp J    &kp K       &kp L       &kp SEMI    &kp SQT     &kp ENTER
-                &kp LSHFT  &kp Z        &kp X       &kp C    &kp V      &kp B       &kp N       &kp M    &kp COMMA   &kp DOT     &kp FSLH    &kp UP      &mo 1
-                &kp LCTRL  &kp LALT     &mo 1       &none    &none      &kp SPACE   &none       &kp DEL  &kp BSPC    &kp LSHFT   &kp LEFT    &kp DOWN    &kp RIGHT 
+                &none      &kp N1       &kp N2      &kp N3   &kp N4     &kp N5      &kp N6      &kp N7   &kp N8      &kp N9      &kp N0      &kp MINUS   &kp EQUAL
+                &none      &kp Q        &kp W       &kp E    &kp R      &kp T       &kp Y       &kp U    &kp I       &kp O       &kp P       &kp LBKT    &kp RBKT
+                &none      &kp A        &kp S       &kp D    &kp F      &kp G       &kp H       &kp J    &kp K       &kp L       &kp SEMI    &kp SQT     &kp ESC
+                &kp LSHFT  &kp Z        &kp X       &kp C    &kp V      &kp B       &kp N       &kp M    &kp COMMA   &kp DOT     &kp FSLH    &kp UP      &kp DEL
+                &kp LCTRL  &none        &kp LALT    &mo 1    &none      &kp SPACE   &kp SPACE   &none    &kp LSHFT   &mo 1       &kp LEFT    &kp DOWN    &kp RIGHT 
             >;
         };
 

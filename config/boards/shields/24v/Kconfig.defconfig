@@ -4,6 +4,6 @@
 if SHIELD_24v
 
 config ZMK_KEYBOARD_NAME
-    default "24v Keyboard"
+    default "24v"
 
 endif

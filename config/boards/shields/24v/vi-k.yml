@@ -1,6 +1,6 @@
 file_format: "1"
-id: vi-k
-name: VI Keyboard
+id: 24v
+name: 24v Keyboard
 type: shield
 url: https://github.com/LiLim24
 requires: [pro_micro]

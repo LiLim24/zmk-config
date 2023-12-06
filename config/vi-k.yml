@@ -1,0 +1,8 @@
+file_format: "1"
+id: vi-k
+name: VI Keyboard
+type: shield
+url: https://github.com/LiLim24
+requires: [pro_micro]
+features:
+  - keys
